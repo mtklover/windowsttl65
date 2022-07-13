@@ -40,10 +40,9 @@ nbtstat -R
 nbtstat -RR
 ipconfig /flushdns
 ipconfig /registerdns
-PAUSE
 ECHO FASE 1 COMPLETADA
-ECHO COMENZANDO FASE 2: APLICANDO PARCHEO DE TTL (IPV4) Y HOPLIMIT (IPV6).
 PAUSE
+ECHO COMENZANDO FASE 2: APLICANDO PARCHEO DE TTL (IPV4) Y HOPLIMIT (IPV6).
 netsh int ipv4 set global defaultcurhoplimit=65 store=persistent
 ECHO PARCHEO DE TTL APLICADO
 PAUSE
