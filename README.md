@@ -1,6 +1,7 @@
 This file will patch your Windows OS TTL and HL to 65
 
 TTL- Time to Live (IPV4)
+
 HL- Hop Limit (IPV6)
 
 References:
@@ -14,6 +15,7 @@ https://en.wikipedia.org/wiki/Hop_(networking)#Hop_limit
 Este archivo parcheara el TTL y el HL del Sistema Operativo Windows a 65
 
 TTL - Time to Live (IPV4)
+
 HL- Hop Limit (IPV6)
 
 Referencias:
